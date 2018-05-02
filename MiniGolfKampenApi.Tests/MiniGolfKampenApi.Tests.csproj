@@ -102,6 +102,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
+      <Project>{f10c1a14-5c9a-41d8-ade4-eea0e9e2aff8}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MiniGolfKampenApi\MiniGolfKampenApi.csproj">
       <Project>{5B10B368-EF1B-4FA5-A0B9-8AA28FA3B9E7}</Project>
       <Name>MiniGolfKampenApi</Name>
