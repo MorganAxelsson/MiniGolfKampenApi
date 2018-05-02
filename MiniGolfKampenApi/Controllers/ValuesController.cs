@@ -10,6 +10,10 @@ namespace MiniGolfKampenApi.Controllers
     [Authorize]
     public class ValuesController : ApiController
     {
+        /// <summary>
+        /// get stringsssssss
+        /// </summary>
+        /// <returns></returns>
         // GET api/values
         public IEnumerable<string> Get()
         {
